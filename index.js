@@ -68,6 +68,28 @@ const nome = "Fulana da Silva"
 const idade = 30
 
 console.log("Olá", "Meu nome é " , nome , " e eu tenho" , idade , "anos")
+
+3)
+
+let idade = prompt("Qual sua idade?")
+console.log(idade)
+let idadeEmMeses = (idade) * 12
+console.log(idadeEmMeses)
+let idadeEmDias = (idadeEmMeses) * 30
+console.log(idadeEmDias)
+let idadeHoras = (idadeEmDias) * 24
+console.log(idadeHoras)
+/*
+4)
+
+let primeiroNumero = prompt("Digite um número")
+console.log(primeiroNumero)
+let segundoNumero = prompt("Digite outro número")
+console.log(segundoNumero)
+
+console.log(primeiroNumero > segundoNumero)
+console.log(primeiroNumero == segundoNumero)
+let resultado1 = (primeiroNumero % segundoNumero)
+console.log(resultado1 == 0)
+
 */
-
-

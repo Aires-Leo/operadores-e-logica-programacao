@@ -44,7 +44,6 @@ Para que o código execute de maneira correta, é necessário que
 sejam convertidas as strings parea Numbers*/
 
 //Exercícios de escrita de código
-
 /*
 1)
 const minhaIdade = prompt("Qual sua idade?")
@@ -52,7 +51,7 @@ const idadeMelhorAmigo = prompt("Qual a idade do seu melhor amigo?")
 const diferancaIdade = Number(minhaIdade) - Number(idadeMelhorAmigo)
 console.log(diferancaIdade) 
 console.log("Sua idade é maior que a do seu amigo?" ,  minhaIdade > idadeMelhorAmigo)
-*/
+
 
 /*
 2)
@@ -63,7 +62,12 @@ console.log(restoDaDivisao)
 
 Resposta: Ao dividir por númuero para o resultado é sempre zero. 
 Ao dividir por número ímpar o resultado sobre sempre 1.
-*/
 
+
+const nome = "Fulana da Silva"
+const idade = 30
+
+console.log("Olá", "Meu nome é " , nome , " e eu tenho" , idade , "anos")
+*/
 
 
